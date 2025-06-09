@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Catálogo de Productos</title>
+
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="index.html" class="logo"><img src="imagen/logo.png"></a>
+        <h1>Los Enmarañados</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href= "quienessomos.html">Quiénes Somos</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de contenido principal-->
+    <main>
+        <h1>Catálogo de Productos</h1>
+        <div class="catalogo">
+            <!-- Producto 1 -->
+            <div class="producto">
+                <img src="imagen/productos/bulto.jpg" alt="Producto 1">
+                <div class="producto-info">
+                    <h2>Bolsa tejida artesanal
+</h2>
+                    <p>Bolsa tejida artesanal, Hecha a mano con fibras naturales, esta bolsa de diseño tradicional cuenta con un patrón de rayas en tonos neutros y detalles decorativos en el frente. </p>
+                    <p class="precio">$75.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 2 -->
+            <div class="producto">
+                <img src="imagen/productos/adorno.jpg" alt="Producto 2">
+                <div class="producto-info">
+                    <h2>Escultura artesanal de henequén
+</h2>
+                    <p>Obra decorativa elaborada a mano con fibra de henequén, compuesta por esferas apiladas que aportan un estilo rústico y elegante.</p>
+                    <p class="precio">$100.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 3 -->
+            <div class="producto">
+                <img src="imagen/productos/arete.jpg" alt="Producto 3">
+                <div class="producto-info">
+                    <h2>Adorno Artesanal</h2>
+                    <p>Elegante y rústico, este adorno hecho a mano con fibra de henequén refleja la belleza de nuestras tradiciones. Ideal para decorar espacios con un toque natural, auténtico y lleno de historia.</p>
+                    <p class="precio">$50.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 4 -->
+            <div class="producto">
+                <img src="imagen/productos/bultos2.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Bolsas finas de henequén con detalles modernos
+</h2>
+                    <p>Elegantes bolsas artesanales tejidas con fibra de henequén, reforzadas con asas resistentes y detalles decorativos.</p>
+                    <p class="precio">$150.00</p>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="producto">
+                <img src="imagen/productos/bultoredondo.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Bolso artesanal de henequén redondo</h2>
+                    <p>Elegante bolso tejido a mano con fibra de henequén, de forma circular y diseño natural.</p>
+                    <p class="precio">$200.00</p>
+                </div>
+            </div>
+            <!-- Producto 6 -->
+            <div class="producto">
+                <img src="imagen/productos/arete.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Collar Maya</h2>
+                    <p>Collar artesanal elaborado con fibra de henequén teñida y moldeada a mano. Su diseño semicírcular combina tradición y elegancia, ideal para lucir en eventos especiales o como pieza distintiva de arte textil mexicano.</p>
+                    <p class="precio">$100.00</p>
+                </div>
+            </div>
+            <!-- Producto 7 -->
+            <div class="producto">
+                <img src="imagen/productos/hamaca.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Hamaca Artesanal</h2>
+                    <p>Hamaca artesanal tejida a mano con fibra de henequén 100% natural. Su diseño tradicional y resistente ofrece comodidad y frescura, ideal para descanso en interiores o exteriores.</p>
+                    <p class="precio">$2,700.00</p>
+                </div>
+            </div>
+            <!-- Producto 8 -->
+            <div class="producto">
+                <img src="imagen/productos/abanico.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Abanico de Henequén</h2>
+                    <p>Elegante abanico artesanal elaborado con fibras de henequén natural, tejido a mano con detalles decorativos en forma de patrón.</p>
+                    <p class="precio">$150.00</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 Los Enmarañados. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/share/163yZHuqeV/" target="_blank">Facebook</a> |
+            <a href="https://www.instagram.com/losenmaranados?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto: henequeneroslosenmaranados@gmail.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+    </script>
+</body>
+</html>

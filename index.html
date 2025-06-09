@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina WEB</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="index.html" class="logo"><img src="imagen/logo.png"></a>
+        <h1>Los Enmarañados</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href= "quienessomos.html">Quiénes Somos</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Sección de contenido principal-->
+    <main>
+        <!-- Sección de la empresa -->
+        <section id="empresa" class="columnas">
+            <div class="izquierda">
+                <img src="imagen/logo.png" alt="quienes_somos" width="400" height="400">
+            </div>
+            <div class="derecha">
+                <h2>Mi empresa</h2>
+                <p>Bienvenido a nuestro mundo de hilo de henequen. Te invitamos a descubrir un universo donde la tradición se entrelaza con la creatividad, y donde cada producto cuenta una historia tejida con paciencia, orgullo y herencia cultural.</p>
+                <br>
+                <p>Nuestro catálogo está hecho con hilo de henequén, una fibra natural extraída del agave, famosa por su resistencia, belleza rústica y sostenibilidad. ¡Disfruta tu visita!</p>    
+            </div>
+        </section>
+
+        <!-- Sección de Promociones -->
+        <section id="promocion">
+            <h2>PROMOCIONES</h2>
+            <div class="catalogo">
+                <!-- promocion 1 -->
+                <div class="producto">
+                    <img src="imagen/promocion1.jpg" alt="producto 1">
+                    <div class="producto-info">
+                        <h2>Promoción Especial 1</h2>
+                        <p>🌿 Promoción Artesanal Única 🌿
+Disfruta del descanso y la frescura con este set elaborado a mano: hamaca y abanico de hilo de henequén.
+Diseñados con fibras naturales y técnicas tradicionales, ofrecen comodidad, durabilidad y un toque de identidad cultural.
+¡Adquiere ambos a un precio especial y lleva a casa la esencia del arte local!</p>
+                    </div>
+                </div>
+                <!-- promocion 2 -->
+                <div class="producto">
+                    <img src="imagen/promocion2.jpg" alt="Producto 2">
+                    <div class="producto-info">
+                        <h2>Promoción Especial 2</h2>
+                        <p>✨ Promoción Especial ✨
+Luce auténtica y conecta con nuestras raíces con este hermoso set artesanal: bolsa + collar hechos 100% de henequén.
+Diseñados a mano con fibras naturales, este dúo combina tradición, estilo y sostenibilidad.
+¡Llévate ambos por un precio especial y apoya el talento local!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+                    
+            
+
+        <!-- Sección de Marcas -->
+        <section id="marcas">
+            <h2>Nuestros Productos </h2>
+            <div class="brands">
+                <img src="imagen/productos/collar.jpg" alt="Collar de Henequén">
+                <img src="imagen/productos/abanico.jpg" alt="Abanico">
+                <img src="imagen/productos/bulto.jpg" alt="Bolsa De Henequén">
+                <img src="imagen/productos/hamaca.jpg" alt="Hamaca de Henequén">
+            </div>
+        </section>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 Los Enmarañados. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/share/163yZHuqeV/" target="_blank">Facebook</a> |
+        
+            <a href="https://www.instagram.com/losenmaranados?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto: henequeneroslosenmaranados@gmail.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+      </script>
+</body>
+</html>
